@@ -30,6 +30,9 @@ var width = window.screen.width;
     setInterval(() => {
       shake(button1, 675, 200, 2000 )  
     }, 1000);
+    setInterval(() => {
+      shake(button2, 675, 200, 2000 )  
+    }, 1000);
 
     setTimeout(() => {
         plane1.style.visibility = 'visible';
