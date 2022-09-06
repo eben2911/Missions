@@ -1,0 +1,26 @@
+#plane1{
+    top:-10px;
+    left: 900px;
+}
+#text-head{
+    top: 100px;
+    left: 200px;
+
+}
+#text-head2{
+    top: 150px;
+    left: 220px;
+
+}
+#Manfaat-Liburan{
+    top: 100px;
+    left: 500px;
+}
+.font1{
+    font-family: 'Lemon', cursive;
+    font-size: 40px;
+}
+.font2{
+    font-family: 'Lemon', cursive;
+    font-size: 20px;
+}
