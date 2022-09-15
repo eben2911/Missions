@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Rubik:ital,wght@0,400;1,900&family=Source+Sans+Pro&display=swap');
+
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+a{
+
+    font-family: 'Rubik', sans-serif;
+}
+
+header {
+    display: block;
+}
+
+.fontrs {
+    font-family: 'Roboto Slab' 12px/30px, serif;
+}
+.px2 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.fonthandwrite {
+    font-family: 'Handlee', cursive;
+}
+
+.container {
+    max-width: 73.75rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.md-flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.md-col-4 {
+    width: 33.33333% !important;
+}
+
+.flex-center {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.py1 {
+    padding-left: 10rem;
+}
+
+.py2 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.py3 {
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+.py4 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.flex-auto {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-width: 0;
+    min-height: 0;
+}
+
+.flex-none {
+    -webkit-box-flex: 0;
+    -webkit-flex: none;
+    -ms-flex: none;
+    flex: none;
+}
+
+.red {
+    color: red;
+}
+
+.h5 {
+    font-size: 1.125rem;
+}
+
+.sm-show {
+    display: block !important;
+}
+
+.gray {
+    color: #949EB2;
+}
+
+.mr3 {
+    margin-right: 2rem;
+}
+
+.rounded {
+    border-radius: 3px;
+}
+
+.p3 {
+    padding: 2rem;
+}
+
+.mb4 {
+    margin-bottom: 4rem;
+}
+
+.dark-blue {
+    color: darkblue;
+}
+
+.mb1 {
+    margin-bottom: .5rem;
+}
+
+.mt0 {
+    margin-top: 0;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.h4 {
+    font-size: 1.375rem;
+}
+
+.med-gray {
+    color: #778298;
+}
+
+.mb2 {
+    margin-bottom: 1rem;
+}
+
+.semibold,
+.btn {
+    font-weight: 600;
+}
+
+.border-none {
+    border: none;
+}
+
+.shadow,
+.btn-outline:hover {
+    box-shadow: 0 0 1px 0 rgb(56 64 79 / 30%), 0 1px 1px 0 rgb(9 24 54 / 24%), 0 2px 5px 0 rgb(9 24 54 / 6%);
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.border-none {
+    border: 0;
+}
+
+.btn-outline {
+    border-radius: 3px;
+}
+
+.btn-outline,
+.btn-outline:hover {
+    border-color: currentcolor;
+}
+
+.btn,
+.btn:hover {
+    text-decoration: none;
+}
+
+.btn {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 700;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1.125rem;
+    padding: .5rem 1rem;
+    margin: 0;
+    height: auto;
+    border: 1px solid transparent;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    color: inherit;
+    background-color: transparent;
+
+}
+
+.slate {
+    color: #38404F;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+user agent stylesheet div {
+    display: block;
+}
+
+.border-none {
+    border: none;
+}
+
+.btn-pad {
+    height: auto !important;
+    padding: 0.875rem 1.125rem !important;
+    min-width: 11.25rem;
+}
+
+.rounded-left {
+    border-radius: 3px 0 0 3px;
+}
+
+.border-none {
+    border: 0;
+}
+
+.flex-auto {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-width: 0;
+    min-height: 0;
+}
+
+.md-col-8 {
+    width: 66.66667% !important;
+}
+
+.md-col-6 {
+    width: 50% !important;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.m0 {
+    margin: 0;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.bg-green {
+    background: #65D777;
+}
+
+.semibold,
+.btn {
+    font-weight: 600;
+}
+
+.bg-green {
+    background-color: #2ecc40;
+}
+
+.white {
+    color: #fff;
+}
+
+.rounded-right {
+    border-radius: 0 3px 3px 0;
+}
+
+/* @media (min-width: 52em) {
+    width: 33.33333%;
+} */
+
+.col-12 {
+    width: 100%;
+}
+
+.py2 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+.mxn2 {
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+nav {
+    display: block;
+}
+
+.mxn3 {
+    margin-left: -2rem;
+    margin-right: -2rem;
+}
+
+.my-2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
